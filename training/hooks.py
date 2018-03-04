@@ -32,7 +32,29 @@ app_license = "MIT"
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
 
-fixtures = ["Custom Field","Property Setter","Custom Script","Print Format"]
+fixtures = ["Custom Field","Property Setter","Print Format"]
+# Home Pages
+# ----------
+doctype_js = {
+    "Lead":["custom_script/lead.js"],
+    "Opportunity":["custom_script/Opportunity.js"],
+    "Sales Order":["custom_script/sales_order.js"],
+    "Quotation":["custom_script/quotation.js"],
+    "Supplier":["custom_script/supplier.js"],
+    "Sales Invoice":["custom_script/sales_invoice.js"],
+    "Customer":["custom_script/customer.js"],
+    "Delivery Note":["custom_script/delivery_note.js"],
+    "Payment Entry":["custom_script/payment_entry.js"],
+    "Journal Entry":["custom_script/journal_entry.js"],
+    "Purchase Order":["custom_script/purchase_order.js"],
+    "Purchase Invoice":["custom_script/purchase_invoice.js"],
+    "Purchase Receipt":["custom_script/purchase_receipt.js"],
+    "Request for Quotation":["custom_script/request_for_quotation.js"],
+    "Material Request":["custom_script/material_request.js"],
+    "Supplier Quotation":["custom_script/supplier_quotation.js"],
+
+    "Brand":["custom_script/brand.js"]
+}
 
 # Home Pages
 # ----------
