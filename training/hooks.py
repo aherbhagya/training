@@ -54,6 +54,7 @@ doctype_js = {
     "Supplier Quotation":["custom_script/supplier_quotation.js"],
 
     "Brand":["custom_script/brand.js"]
+
 }
 
 # Home Pages
